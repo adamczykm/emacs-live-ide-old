@@ -157,10 +157,12 @@
 (let* ((pack-names '("foundation-pack"
                      "colour-pack"
                      "lang-pack"
+                     "icicles-pack"
                      "power-pack"
                      "git-pack"
                      "org-pack"
                      "clojure-pack"
+                     "python-pack"
                      "bindings-pack"))
        (live-dir (file-name-as-directory "stable"))
        (dev-dir  (file-name-as-directory "dev")))
@@ -225,3 +227,7 @@
   (load custom-file))
 
 (message "\n\n Pack loading completed. Your Emacs is Live...\n\n")
+
+(setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
+                         ("marmalade" . "http://marmalade-repo.org/packages/")
+                         ("melpa" . "http://melpa.milkbox.net/packages/")))

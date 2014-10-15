@@ -20,7 +20,7 @@
 (live-load-config-file "util-fns.el")
 (live-load-config-file "built-in.el")
 (live-load-config-file "cosmetic.el")
-(live-load-config-file "ido-conf.el")
+;(live-load-config-file "ido-conf.el")
 (live-load-config-file "smex-conf.el")
 (live-load-config-file "tramp-conf.el")
 (live-load-config-file "mouse-conf.el")
@@ -37,7 +37,7 @@
 (live-load-config-file "zone-conf.el")
 (live-load-config-file "monkey-patch.el")
 (live-load-config-file "live.el")
-
+(live-load-config-file "autopair-conf.el")
 
 (when (eq system-type 'darwin)
   (live-load-config-file "osx.el"))

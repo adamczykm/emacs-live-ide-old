@@ -91,7 +91,6 @@
 ;; clojure
 
 (define-key clojure-mode-map (kbd "C-c l l") 'align-cljlet)
-(define-key clojure-mode-map (kbd "C-M-z")   'align-cljlet)
 
 (define-key paredit-mode-map (kbd "C-c l k") 'paredit-splice-sexp-killing-forward)
 (define-key paredit-mode-map (kbd "C-c l w") 'paredit-splice-sexp-killing-backward)
@@ -102,7 +101,6 @@
 (define-key paredit-mode-map (kbd "C-M-s")   'paredit-backward-slurp-sexp)
 (define-key paredit-mode-map (kbd "C-M-j")   'live-paredit-forward-slurp-sexp-neatly)
 (define-key paredit-mode-map (kbd "C-M-y")   'paredit-forward-barf-sexp)
-(define-key paredit-mode-map (kbd "C-M-z")   'align-cljlet)
 (define-key paredit-mode-map (kbd "M-S")     'paredit-split-sexp)
 (define-key paredit-mode-map (kbd "M-s")     'paredit-splice-sexp)
 (define-key paredit-mode-map (kbd "M-j")     'paredit-join-sexps)

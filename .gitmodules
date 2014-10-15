@@ -149,3 +149,39 @@
 [submodule "packs/dev/foundation-pack/vendor/submodules/epl"]
         path = packs/dev/foundation-pack/vendor/submodules/epl
         url = git://github.com/cask/epl.git
+[submodule "packs/dev/foundation-pack/vendor/submodules/autopair"]
+	path = packs/dev/foundation-pack/vendor/submodules/autopair
+	url = https://github.com/capitaomorte/autopair
+[submodule "packs/dev/python-pack/vendor/submodules/python-mode"]
+	path = packs/dev/python-pack/vendor/submodules/python-mode
+	url = https://github.com/emacsmirror/python-mode
+[submodule "packs/dev/python-pack/vendor/submodules/emacs-jedi"]
+	path = packs/dev/python-pack/vendor/submodules/emacs-jedi
+	url = https://github.com/tkf/emacs-jedi
+[submodule "packs/dev/python-pack/vendor/submodules/emacs-epc"]
+	path = packs/dev/python-pack/vendor/submodules/emacs-epc
+	url = https://github.com/kiwanami/emacs-epc
+[submodule "packs/dev/python-pack/vendor/submodules/emacs-deferred"]
+	path = packs/dev/python-pack/vendor/submodules/emacs-deferred
+	url = https://github.com/kiwanami/emacs-deferred
+[submodule "packs/dev/python-pack/vendor/submodules/emacs-ctable"]
+	path = packs/dev/python-pack/vendor/submodules/emacs-ctable
+	url = https://github.com/kiwanami/emacs-ctable
+[submodule "packs/dev/python-pack/vendor/submodules/emacs-python-environment"]
+	path = packs/dev/python-pack/vendor/submodules/emacs-python-environment
+	url = https://github.com/tkf/emacs-python-environment
+[submodule "packs/dev/python-pack/vendor/submodules/python-pep8"]
+	path = packs/dev/python-pack/vendor/submodules/python-pep8
+	url = https://github.com/emacsmirror/python-pep8
+[submodule "packs/dev/python-pack/vendor/submodules/python-pylint"]
+	path = packs/dev/python-pack/vendor/submodules/python-pylint
+	url = https://github.com/emacsmirror/python-pylint
+[submodule "packs/dev/python-pack/vendor/submodules/ropemode"]
+	path = packs/dev/python-pack/vendor/submodules/ropemode
+	url = https://github.com/python-rope/ropemode
+[submodule "packs/dev/python-pack/vendor/submodules/Pymacs"]
+	path = packs/dev/python-pack/vendor/submodules/Pymacs
+	url = https://github.com/pinard/Pymacs
+[submodule "packs/dev/power-pack/vendor/submodules/flycheck"]
+	path = packs/dev/power-pack/vendor/submodules/flycheck
+	url = https://github.com/flycheck/flycheck

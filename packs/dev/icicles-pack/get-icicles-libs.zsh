@@ -1,4 +1,11 @@
 #!/usr/bin/zsh
+
+# parameters
+sleep_time=3
+
+
+
+
 printf "Script will re-downloaded icicles libs from http://www.emacswiki.org/emacs/Icicles_-_Libraries"
 if [ -d "vendor" ]; then
     rm -rI vendor
@@ -23,15 +30,36 @@ mkdir vendor
 mkdir vendor/icicles
 for i in $libs; do
   curl http://www.emacswiki.org/emacs-en/download/$i > vendor/icicles/$i
+  sleep $sleep_time
 done
 printf "Done."
 
+printf "Downloading bookmark+"
+bookmarkp=('bookmark+.el'
+           'bookmark+-mac.el'
+           'bookmark+-bmu.el'
+           'bookmark+-1.el'
+           'bookmark+-key.el'
+           'bookmark+-lit.el'
+           'bookmark+-doc.el'
+           'bookmark+-chg.el')
+
+mkdir vendor/bookmark+
+for i in $bookmarkp; do
+  curl http://www.emacswiki.org/emacs/download/$i > vendor/bookmark+/$i
+  sleep $sleep_time
+done
+printf "Done."
+
+
+curl https://raw.githubusercontent.com/emacs-mirror/emacs/master/lisp/avoid.el > vendor/avoid.el
+
 printf "Downloading extras..."
 extras=('apropos-fn+var.el'
-        'bookmark+.el'
         'col-highlight.el'
         'crosshairs.el'
         'doremi.el'
+        'frame-fns.el'
         'frame-cmds.el'
         'fuzzy-match.el'
         'hexrgb.el'
@@ -47,5 +75,6 @@ extras=('apropos-fn+var.el'
 
 for i in $extras; do
   curl http://www.emacswiki.org/emacs/download/$i > vendor/$i
+  sleep $sleep_time
 done
 printf "Done."
