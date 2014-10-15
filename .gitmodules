@@ -185,3 +185,24 @@
 [submodule "packs/dev/power-pack/vendor/submodules/flycheck"]
 	path = packs/dev/power-pack/vendor/submodules/flycheck
 	url = https://github.com/flycheck/flycheck
+[submodule "packs/dev/helm-pack/vendor/helm"]
+	path = packs/dev/helm-pack/vendor/helm
+	url = https://github.com/emacs-helm/helm
+[submodule "packs/dev/helm-pack/vendor/helm-spotify"]
+	path = packs/dev/helm-pack/vendor/helm-spotify
+	url = https://github.com/krisajenkins/helm-spotify
+[submodule "packs/dev/helm-pack/vendor/ac-helm"]
+	path = packs/dev/helm-pack/vendor/ac-helm
+	url = https://github.com/yasuyk/ac-helm
+[submodule "packs/dev/helm-pack/vendor/helm-clojure"]
+	path = packs/dev/helm-pack/vendor/helm-clojure
+	url = https://github.com/prepor/helm-clojure
+[submodule "packs/dev/helm-pack/vendor/helm-flycheck"]
+	path = packs/dev/helm-pack/vendor/helm-flycheck
+	url = https://github.com/yasuyk/helm-flycheck
+[submodule "packs/dev/helm-pack/vendor/helm-swoop"]
+	path = packs/dev/helm-pack/vendor/helm-swoop
+	url = https://github.com/ShingoFukuyama/helm-swoop
+[submodule "packs/dev/power-pack/vendor/submodules/projectile"]
+	path = packs/dev/power-pack/vendor/submodules/projectile
+	url = https://github.com/bbatsov/projectile

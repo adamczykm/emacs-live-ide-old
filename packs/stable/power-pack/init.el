@@ -19,3 +19,4 @@
 (live-load-config-file "floobits-conf.el")
 (live-load-config-file "wc-mode-conf.el")
 (live-load-config-file "flycheck-conf.el")
+(live-load-config-file "projectile-conf.el")
