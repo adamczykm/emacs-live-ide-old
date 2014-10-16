@@ -22,8 +22,8 @@
 (global-set-key (kbd "C-c e") 'eval-and-replace)
 
 ;; winner undo and redo
-(global-set-key (kbd "C-c b") 'winner-undo)
-(global-set-key (kbd "C-c f") 'winner-redo)
+(global-set-key (kbd "C-c w b") 'winner-undo)
+(global-set-key (kbd "C-c w f") 'winner-redo)
 
 ;; Git Gutter
 (global-set-key (kbd "C-c g g") 'git-gutter:toggle)
@@ -77,12 +77,14 @@
 (global-set-key (kbd "C-c s m") 'live-show-messages)
 
 ;;window and buffer movement
+(global-set-key (kbd "C-c w b") 'winner-undo)
+(global-set-key (kbd "C-c w f") 'winner-redo)
 (global-set-key (kbd "C-c w s") 'swap-windows)
 (global-set-key (kbd "C-c w r") 'rotate-windows)
-(global-set-key (kbd "C-c w p") 'buf-move-up)
-(global-set-key (kbd "C-c w n") 'buf-move-down)
-(global-set-key (kbd "C-c w b") 'buf-move-left)
-(global-set-key (kbd "C-c w f") 'buf-move-right)
+(global-set-key (kbd "C-c w u") 'buf-move-up)
+(global-set-key (kbd "C-c w d") 'buf-move-down)
+(global-set-key (kbd "C-c w l") 'buf-move-left)
+(global-set-key (kbd "C-c w r") 'buf-move-right)
 (global-set-key (kbd "C-c w .") 'shrink-window-horizontally)
 (global-set-key (kbd "C-c w ,") 'enlarge-window-horizontally)
 (global-set-key (kbd "C-c w /") (lambda () (interactive) (enlarge-window -1)))
@@ -106,7 +108,8 @@
 (define-key paredit-mode-map (kbd "M-j")     'paredit-join-sexps)
 (define-key paredit-mode-map (kbd "M-P")     'live-paredit-previous-top-level-form)
 (define-key paredit-mode-map (kbd "M-N")     'live-paredit-next-top-level-form)
-(define-key paredit-mode-map (kbd "C-M-f")   'live-paredit-forward)
+;;(define-key paredit-mode-map (kbd "C-M-f")   'live-paredit-forward)
+(define-key paredit-mode-map (kbd "C-M-f")   'paredit-forward)
 (define-key paredit-mode-map (kbd "M-q")     'live-paredit-reindent-defun)
 (define-key paredit-mode-map (kbd "M-d")     'live-paredit-forward-kill-sexp)
 (define-key paredit-mode-map (kbd "M-k")     'live-paredit-backward-kill)

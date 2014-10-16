@@ -1,4 +1,5 @@
 (live-add-pack-lib "cider")
+(require 'queue)
 (require 'cider)
 
 (defun live-windows-hide-eol ()

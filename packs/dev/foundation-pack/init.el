@@ -38,6 +38,7 @@
 (live-load-config-file "monkey-patch.el")
 (live-load-config-file "live.el")
 (live-load-config-file "autopair-conf.el")
+(live-load-config-file "paredit-conf.el")
 
 (when (eq system-type 'darwin)
   (live-load-config-file "osx.el"))
