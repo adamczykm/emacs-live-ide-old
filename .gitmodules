@@ -212,3 +212,9 @@
 [submodule "packs/dev/helm-pack/vendor/emacs-async"]
 	path = packs/dev/helm-pack/vendor/emacs-async
 	url = https://github.com/jwiegley/emacs-async.git
+[submodule "packs/dev/common-lisp-pack/vendor/submodules/slime"]
+	path = packs/dev/common-lisp-pack/vendor/submodules/slime
+	url = https://github.com/slime/slime
+[submodule "packs/dev/common-lisp-pack/vendor/submodules/quicklisp-client"]
+	path = packs/dev/common-lisp-pack/vendor/submodules/quicklisp-client
+	url = https://github.com/quicklisp/quicklisp-client
