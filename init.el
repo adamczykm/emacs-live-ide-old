@@ -163,6 +163,7 @@
                      "git-pack"
                      "org-pack"
                      "clojure-pack"
+                     "common-lisp-pack"
                      "python-pack"
                      "bindings-pack"))
        (live-dir (file-name-as-directory "stable"))
